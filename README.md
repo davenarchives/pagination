@@ -15,3 +15,6 @@ The project consists of three main files:
 - **`style.css`**: The CSS that defines the layout and design of the quotes and pagination.
 - **`script.js`**: The JavaScript that controls the dynamic switching of quotes based on the selected page.
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/391ddae8-7bab-4d54-8e92-bfd3bec1df2b)
+![image](https://github.com/user-attachments/assets/cef7e79d-5c05-4606-87cd-12fb69e96463)
