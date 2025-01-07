@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;  
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column; 
+  height: 100%; 
+}
+
+.quote {
+  font-size: 20px;
+  font-style: italic;
+  padding: 0 70px;
+  color: #555;
+  margin-bottom: 20px; 
+}
+
+.quote-text {
+  display: none; 
+}
+
+.quote-text.active {
+  display: block; /* Only the active quote will be visible */
+}
+
+.pagination {
+  position: fixed; /* Fix the pagination at the bottom of the page */
+  bottom: 0;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.page-btn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.page-btn.active {
+  background-color: #007bff;
+  color: white;
+}
